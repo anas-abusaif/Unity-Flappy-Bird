@@ -18,6 +18,6 @@ public class PipeSpawner : MonoBehaviour
     }
     void Spawn()
     {
-        Instantiate(pipePrefab, new Vector3(4.5f, Random.Range(2.5f, -2.5f), 0), Quaternion.identity);
+        Instantiate(pipePrefab, new Vector3(9.5f, Random.Range(2.5f, -2.5f), 0), Quaternion.identity);
     }
 }
